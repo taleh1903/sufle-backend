@@ -90,16 +90,16 @@ public class DaoRequestTime {
         cakeLimit.setDate(requestTime.getOrderDate());
         cakeLimit.setType(requestTime.getType());
         if (type.equals("tort")) {
-            cakeLimit.setFirstBatchLimit(5);
-            cakeLimit.setSecBatchLimit(5);
-            cakeLimit.setThirdBatchLimit(5);
-            cakeLimit.setFourthBatchLimit(5);
-            cakeLimit.setFifthBatchLimit(5);
-            cakeLimit.setSixthBatchLimit(5);
-            cakeLimit.setSeventhBatchLimit(10);
-            cakeLimit.setEighthBatchLimit(10);
-            cakeLimit.setNinthBatchLimit(10);
-            cakeLimit.setTenthBatchLimit(10);
+            cakeLimit.setFirstBatchLimit(8);
+            cakeLimit.setSecBatchLimit(8);
+            cakeLimit.setThirdBatchLimit(8);
+            cakeLimit.setFourthBatchLimit(12);
+            cakeLimit.setFifthBatchLimit(12);
+            cakeLimit.setSixthBatchLimit(14);
+            cakeLimit.setSeventhBatchLimit(14);
+            cakeLimit.setEighthBatchLimit(16);
+            cakeLimit.setNinthBatchLimit(16);
+            cakeLimit.setTenthBatchLimit(16);
         } else if (type.equals("mtort")) {
             cakeLimit.setFirstBatchLimit(1);
             cakeLimit.setSecBatchLimit(1);
